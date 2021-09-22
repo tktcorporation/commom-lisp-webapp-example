@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    ports:
+      - "5000:5000"
+    volumes:
+      - ".:/workspace"
+    command: /workspace/bin/boot.sh

@@ -1,11 +1,5 @@
-# .github
+# commom-lisp-webapp-example
+Web app example using CommonLisp (SBCL) &amp; clack
 
-## Github Repository Template
-
-Generate your repository by this.
-
-## Actions
-
-- https://github.com/github/codeql-action
-- https://github.com/tkt-actions/add-issue-links
-- https://github.com/actions/labeler
+# Usage
+`$ docker-compose up -d`
